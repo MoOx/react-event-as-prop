@@ -56,7 +56,7 @@
     "tests": "jest --coverage",
     "pretest": "npm -s run lint",
     "test": "npm -s run tests",
-    "coverage": "coveralls",
+    "coverage": "cat ./coverage/lcov.info | coveralls",
     "release": "npmpub"
   },
   "babel": {
