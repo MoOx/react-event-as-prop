@@ -1,0 +1,53 @@
+exports[`test touched props changes when touched 1`] = `
+<span
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  test={true}>
+  nope
+</span>
+`;
+
+exports[`test touched props changes when touched 2`] = `
+<span
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  test={true}>
+  touched
+</span>
+`;
+
+exports[`test touched props changes when touched 3`] = `
+<span
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  test={true}>
+  nope
+</span>
+`;
+
+exports[`test touched props changes when touched and execute on{Event} 1`] = `
+<span
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  test={true}>
+  nope
+</span>
+`;
+
+exports[`test touched props changes when touched and execute on{Event} 2`] = `
+<span
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  test={true}>
+  touched
+</span>
+`;
+
+exports[`test touched props changes when touched and execute on{Event} 3`] = `
+<span
+  onMouseDown={[Function]}
+  onMouseUp={[Function]}
+  test={true}>
+  nope
+</span>
+`;

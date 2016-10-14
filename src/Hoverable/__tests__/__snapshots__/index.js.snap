@@ -1,0 +1,53 @@
+exports[`test hovered props changes when hovered 1`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  test={true}>
+  nope
+</span>
+`;
+
+exports[`test hovered props changes when hovered 2`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  test={true}>
+  hovered
+</span>
+`;
+
+exports[`test hovered props changes when hovered 3`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  test={true}>
+  nope
+</span>
+`;
+
+exports[`test hovered props changes when hovered and execute on{Event} 1`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  test={true}>
+  nope
+</span>
+`;
+
+exports[`test hovered props changes when hovered and execute on{Event} 2`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  test={true}>
+  hovered
+</span>
+`;
+
+exports[`test hovered props changes when hovered and execute on{Event} 3`] = `
+<span
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  test={true}>
+  nope
+</span>
+`;

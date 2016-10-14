@@ -1,0 +1,120 @@
+exports[`test props changes when event changes 1`] = `
+<button
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  style={
+    Object {
+      "fontWeight": "100",
+    }
+  }>
+  Submit
+</button>
+`;
+
+exports[`test props changes when event changes 2`] = `
+<button
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  style={
+    Object {
+      "fontWeight": "bold",
+    }
+  }>
+  Submit
+</button>
+`;
+
+exports[`test props changes when event changes 3`] = `
+<button
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  style={
+    Object {
+      "fontWeight": "100",
+    }
+  }>
+  Submit
+</button>
+`;
+
+exports[`test props changes when event changes 4`] = `
+<button
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  style={
+    Object {
+      "fontWeight": "100",
+      "opacity": 0.6,
+    }
+  }>
+  Submit
+</button>
+`;
+
+exports[`test props changes when event changes 5`] = `
+<button
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  style={
+    Object {
+      "fontWeight": "100",
+    }
+  }>
+  Submit
+</button>
+`;
+
+exports[`test props changes when event changes 6`] = `
+<button
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  style={
+    Object {
+      "fontWeight": "100",
+      "outline": "1px solid red",
+    }
+  }>
+  Submit
+</button>
+`;
+
+exports[`test props changes when event changes 7`] = `
+<button
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onMouseDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  style={
+    Object {
+      "fontWeight": "100",
+    }
+  }>
+  Submit
+</button>
+`;
