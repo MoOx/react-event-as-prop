@@ -1,0 +1,53 @@
+exports[`test focused props changes when focused 1`] = `
+<span
+  onBlur={[Function]}
+  onFocus={[Function]}
+  test={true}>
+  nope
+</span>
+`;
+
+exports[`test focused props changes when focused 2`] = `
+<span
+  onBlur={[Function]}
+  onFocus={[Function]}
+  test={true}>
+  focused
+</span>
+`;
+
+exports[`test focused props changes when focused 3`] = `
+<span
+  onBlur={[Function]}
+  onFocus={[Function]}
+  test={true}>
+  nope
+</span>
+`;
+
+exports[`test focused props changes when focused and execute on{Event} 1`] = `
+<span
+  onBlur={[Function]}
+  onFocus={[Function]}
+  test={true}>
+  nope
+</span>
+`;
+
+exports[`test focused props changes when focused and execute on{Event} 2`] = `
+<span
+  onBlur={[Function]}
+  onFocus={[Function]}
+  test={true}>
+  focused
+</span>
+`;
+
+exports[`test focused props changes when focused and execute on{Event} 3`] = `
+<span
+  onBlur={[Function]}
+  onFocus={[Function]}
+  test={true}>
+  nope
+</span>
+`;

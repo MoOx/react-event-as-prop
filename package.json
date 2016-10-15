@@ -1,0 +1,89 @@
+{
+  "name": "react-event-as-prop",
+  "version": "0.0.0",
+  "description": "React Higher-Order Components to get event like hover, focus, active as props",
+  "keywords": [
+    "react",
+    "events",
+    "event",
+    "hoc",
+    "props",
+    "prop"
+  ],
+  "author": "Maxime Thirouin",
+  "license": "MIT",
+  "repository": "https://github.com/MoOx/react-event-as-prop.git",
+  "#repositories": "https://github.com/npm/npm/issues/11315",
+  "repositories": [
+    "https://github.com/MoOx/react-event-as-prop.git",
+    "https://gitlab.com/MoOx/react-event-as-prop.git",
+    "https://bitbucket.org/MoOx/react-event-as-prop.git"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src",
+    "!**/__tests__"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-jest": "^16.0.0",
+    "babel-plugin-flow-react-proptypes": "^0.14.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "coveralls": "^2.11.14",
+    "eslint": "^3.7.1",
+    "eslint-config-i-am-meticulous": "^5.0.2",
+    "eslint-plugin-flow-vars": "^0.5.0",
+    "eslint-plugin-react": "^6.4.1",
+    "flow-bin": "^0.33.0",
+    "jest": "^16.0.1",
+    "npmpub": "^3.1.0",
+    "react": "^15.3.2",
+    "react-test-renderer": "^15.3.2"
+  },
+  "scripts": {
+    "transpile": "babel --ignore __tests__ --copy-files src --out-dir lib",
+    "prepublish": "rimraf lib && npm -s run transpile",
+    "lint:js:eslint": "eslint --ignore-path .gitignore --fix .",
+    "lint:js:flow": "flow src",
+    "lint:js": "npm -s run lint:js:eslint && npm -s run lint:js:flow",
+    "lint": "npm -s run lint:js",
+    "tests": "jest --coverage",
+    "pretest": "npm -s run lint",
+    "test": "npm -s run tests",
+    "coverage": "cat ./coverage/lcov.info | coveralls",
+    "release": "npmpub"
+  },
+  "babel": {
+    "presets": [
+      "babel-preset-react",
+      "babel-preset-latest",
+      "babel-preset-stage-2"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "jest": true
+    },
+    "parser": "babel-eslint",
+    "extends": [
+      "eslint-config-i-am-meticulous/react-flow"
+    ]
+  },
+  "jest": {
+    "notify": true,
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}
