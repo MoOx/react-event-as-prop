@@ -1,6 +1,6 @@
 {
   "name": "react-event-as-prop",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "React Higher-Order Components to get event like hover, focus, active as props",
   "keywords": [
     "react",
